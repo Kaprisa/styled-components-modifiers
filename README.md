@@ -32,6 +32,10 @@ const globalModifiers = {
 
 const applyStyleModifiersWithGlobal = applyStyleModifiers(globalModifiers)
 
+/*
+    Pay attention to the package flexible-styled-flex
+*/
+
 const flexModifiers = {
     jc: {
         prop: 'justify-content',
@@ -62,9 +66,10 @@ const flexModifiers = {
             cr: 'column-reverse',
         },
     },
+    fww: 'flex-wrap: wrap;'
 }
 
-const applyFlexModifiers = applyStyleModifiers(flexModifiers);
+const applyFlexModifiers = applyStyleModifiersWithGlobal(flexModifiers);
 
 const Flex = styled.div`
     display: flex;
