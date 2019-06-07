@@ -3,7 +3,7 @@
 ### Example
 
 ```js
-import applyStyleModifiers from '@kaprisa/styled-components-modifiers';
+import applyStyleModifiers from 'flexible-styled-components-modifiers';
 import styled from 'styled-components';
 
 /* 
